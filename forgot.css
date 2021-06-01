@@ -1,0 +1,67 @@
+
+input:focus {
+    outline: none;
+}
+
+#bg2 {
+    border-radius: 10px 10px 10px 10px;
+}
+table.solid {
+    border-style: 1px solid;
+}
+#Fname,#Lname{
+width: 40%;
+}
+
+
+.f {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #f48fb1;
+    width: 90%;
+}
+
+
+
+
+body {
+    /*background-image: url(https://image.freepik.com/free-vector/vector-set-social-media-icons_53876-35184.jpg );
+   background-size:50%;
+   backdrop-filter: blur(2px);*/
+    background-color: black;
+}
+
+.container {
+    height: 100%;
+}
+
+#form {
+    padding-top: 20%;
+    padding-bottom:20%;
+}
+
+.btn {
+    background-color: #e4608c;
+    border: none;
+}
+
+    .btn:hover {
+        background-color: #ec407a;
+    }
+
+.bi {
+    font-size: 25px;
+}
+
+#fb {
+    padding-right: 20px;
+    color: #1778F2;
+}
+
+.bi:hover {
+    font-size: 35px;
+}
+
+#g {
+    color: #DB4437
+}
