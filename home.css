@@ -1,0 +1,65 @@
+
+#post{
+background: transparent;
+    border: none;
+    border-bottom: 1px solid #f48fb1;
+    width: 100%;
+}
+#post:focus{
+    outline: none;
+}
+#pic:hover{
+    font-size: 180%;
+}
+
+#pic{
+   font-size: 150%;
+    color:green;
+}
+
+.a{
+    width:90%;
+}
+
+html, body {
+    height: 100%;
+  }
+.card-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.bi{
+    font-size: 20px;
+}
+#userName{
+    font-size: small;
+}
+ a:hover{
+        text-decoration: none;
+    }
+#search{
+    visibility:hidden;
+    }
+#search:focus{
+        width:50%;
+}
+.img-thumbnail:hover{
+        transform: scale(1.05);
+    }
+.logDrop{
+        margin-left: 70%;
+    }
+#qa
+{
+        border: 1px solid rgb(83, 83, 83);
+        border-radius: 8px 8px 8px 8px;
+ }
+ .card-footer{
+background:transparent;
+border:none;
+
+ }
+ #qa:hover{
+     border:1px solid red;
+ }
+    

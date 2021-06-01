@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PUCHOO -Login or sign up</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+            <p class="navbar brand">Po0cho</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-house-door-fill"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-question-square-fill"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-person-fill"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">  <i class="bi bi-search"></i> </a>
+                </li>
+            </ul>
+
+            <div class="logDrop">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown"> <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="bi bi-bell-fill"></i>
+                    </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <p> Notification</p>
+                    </div>
+                  </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"><i class="bi bi-gear-fill"></i> Settings</a>
+                <a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Log Out</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+        </div>
+        </div>
+        </nav>
+
+    <div class="container-fluid" >
+        
+        <div class="row h-100">
+            
+    <div class="col-sm-2" id="mycard">
+        <div class="card p-4 bg-light" >
+            <img
+              src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              class="rounded-circle img-thumbnail"
+              alt="..."
+            />
+            <div class="card-body">
+              <a href="profile.html"><h5 class="card-title text-center" id="userName">@Username</h5></a>
+              <p class="card-text text-center">
+                This area will display tha user's bio.
+              </p>
+              <center><a href="#!" class="text">Followers:<br>50.5k</a></center>
+              <br>
+            <center> <a href="#!">Following:<br>28k</a></center>
+            </div>
+          </div>
+          </div>
+
+  <div class="col-sm-8">
+    <div class="card-body">
+        <div class="card-title">
+            <form action="">
+                <input type="text" name="text" id="post" placeholder="What's on your mind?" maxlength="100">
+            </form>
+        </div>
+        <div class="card-text text-right" >
+             <i class="bi bi-image float-left" id="pic"></i> <span><button class="btn btn-success">Post</button> </span>
+        </div>
+    </div>
+
+    <div class="card-body bg-light" id="qa">
+      <div class="card-title">
+          <h6>This part will display the questions in this card........ <span><img class="rounded-circle" width="15" src="https://images.unsplash.com/photo-1515468381879-40d0ded81044?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt=""></span>
+          <span>
+            <a href="">@username</a>
+          </span></h6>
+          </div>
+          <hr>
+      <div class="card-text" >
+          <img class="rounded-circle" width="45" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+
+          <p>This part will show the answers to asked question....</p>
+      </div> 
+      <div class="card-footer">
+        <a href="#" class="card-link"><i class="bi bi-hand-thumbs-up"></i> Up</a>
+        <a href="#" class="card-link"><i class="bi bi-hand-thumbs-down"></i> Down</a>
+    </div>
+  </div>
+    
+</div>
+    
+    </div>
+    <div class="col-sm-2"></div>
+    </div>
+</div>
+</body>
+</html>
