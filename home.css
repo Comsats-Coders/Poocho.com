@@ -1,20 +1,25 @@
 
 #post{
-background: transparent;
-    border: none;
-    border-bottom: 1px solid #f48fb1;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #ee1144;
     width: 100%;
+    resize: none;
+
+}
+textarea:focus {
+    box-shadow: 0 0 4px 1px #ee1144;
 }
 #post:focus{
     outline: none;
 }
 #pic:hover{
     font-size: 180%;
+    color:#cc0d3a;;;
 }
 
 #pic{
    font-size: 150%;
-    color:green;
+    color:#ee1144
 }
 
 .a{
@@ -23,6 +28,7 @@ background: transparent;
 
 html, body {
     height: 100%;
+    background-color: #131619;
   }
 .card-text{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,7 +57,7 @@ html, body {
     }
 #qa
 {
-        border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
  }
  .card-footer{
 background:transparent;
@@ -59,6 +65,39 @@ border:none;
 
  }
  #qa:hover{
-    box-shadow:0px 0px 2px 0.5px rgb(0, 183, 255);
+    box-shadow:0 0 5px 1px #ee1144;
  }
     
+ .bi:hover{
+    color:#cc0d3a;;}
+
+.bi{
+    color:#57575c
+}
+ .bi-house-door-fill{
+     color: #ee1144;
+ }
+ .btn-success{
+     
+    background-color:#ee1144;
+    border: none;
+ }
+ .btn-success:hover{
+     background-color: #cc0d3a;;
+ }
+#what{
+    background-color: black;
+    border-radius: 8px 8px 8px 8px;
+}
+#mycard{
+    background: transparent;
+    color:white;
+    border: none
+}
+.card-link {
+    color:#ee1144;
+}
+.card-link:hover{
+    color:#cc0d3a;;
+    fill: #cc0d3a;
+}
