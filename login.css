@@ -4,28 +4,22 @@ h3{
 }
 input:focus{
     outline: none;
-}    
-#bg1 {
-    background-color: #ec407a;
-    border-radius: 10px 0px 0px 10px;
-}
+} 
 #bg2{
-    border-radius: 10px 10px 10px 10px;
+   background-color: white;
 }
 #name ,#pass{
     background: transparent;
     border: none;
-    border-bottom: 1px solid #f48fb1;
+    border-bottom: 1px solid #ee1144;
     width: 100%;
 
 }html, body {
     height: 100%;
   }
 body{
- /*background-image: url(https://image.freepik.com/free-vector/vector-set-social-media-icons_53876-35184.jpg );
-   background-size:50%;
-   backdrop-filter: blur(2px);*/
-   background: linear-gradient(to right, #43b5e9, #f186d1 )};
+   background-color: #131619;
+};
 .container{
     height:100%;
 }
@@ -33,11 +27,11 @@ body{
     padding-top: 15%;
 }
 .btn{
-    background-color: #e4608c;
+    background-color: #ee1144;
     border: none;  
 }
 .btn:hover{
-background-color: #ec407a;
+background-color: #cc0d3a;
 
 }
 .bi{
@@ -54,8 +48,9 @@ background-color: #ec407a;
 #g{
     color:#DB4437
 }
-#logo{
-    padding-top: 15%;
-    padding-left: 10%;
-    
+.col-md-7{
+padding-top: 10%;
+}
+.forget{
+color: #ee1144;
 }
